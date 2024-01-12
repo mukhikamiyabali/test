@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id == anotherId);
+// console.log(id == anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -30,7 +30,38 @@ let myObj = {
 
 const myFunction = "Helloworld" ;
 
-console.log(heros);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//   *********************************************
+
+
+// Stack (primitive) & Heap (non-primitive)
+
+let myyoutubename = "azadar-e-husain"
+
+let anothername = "myyoutubename"
+anothername = "kamiyabali"
+
+
+console.log(myyoutubename);
+console.log(anothername);
+
+// let userone = {
+//     email : "mukhi123@gmail.com",
+//     phone : "8108310831",
+//     city : "xyz"
+// }
+
+// let usertwo = userone
+
+// usertwo.email = "kamiyabali@gmail.com",
+
+// console.log(userone.email);
+// console.log(usertwo.email);
+
+
  
