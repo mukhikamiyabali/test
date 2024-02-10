@@ -5,6 +5,8 @@
 const score = 100
 const scoreValue = 100.3
 
+console.log(typeof scoreValue);
+
 const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
@@ -72,7 +74,7 @@ let newuser = {
     city : "xyz"
 }
 
-console.log(newuser);
+console.log(newuser.email);
 // this is {
 //     email : "mukhi123@gmail.com",
 //     phone : "8108310831",
