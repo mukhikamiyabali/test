@@ -12,9 +12,13 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-// console.log(id == anotherId);
+console.log(id == anotherId);
 
-// const bigNumber = 3456543576654356754n
+
+const Number = 3456543576654356754n
+
+console.log(typeof Number);
+
 
 
 
@@ -30,7 +34,14 @@ let myObj = {
 
 const myFunction = "Helloworld" ;
 
-// console.log(typeof anotherId);
+console.log(typeof heros);
+// this is object
+console.log(typeof myObj);
+// this is object
+console.log(typeof myFunction);
+// this is string
+
+
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
@@ -42,26 +53,42 @@ const myFunction = "Helloworld" ;
 // Stack (primitive) & Heap (non-primitive)
 
 let myyoutubename = "azadar-e-husain"
+myyoutubename = "mukhikamiyabli"
 
-let anothername = "myyoutubename"
-anothername = "kamiyabali"
+const anothername = "khadiyasan"
+// anothername = "kamiyabali"
 
 
 console.log(myyoutubename);
-console.log(anothername);
+// this is mukhikamiyabli
 
-// let userone = {
+console.log(anothername);
+// this is myyoutubename
+
+
+let newuser = {
+    email : "mukhi123@gmail.com",
+    phone : "8108310831",
+    city : "xyz"
+}
+
+console.log(newuser);
+// this is {
 //     email : "mukhi123@gmail.com",
 //     phone : "8108310831",
 //     city : "xyz"
 // }
 
-// let usertwo = userone
+let edituser = newuser
 
-// usertwo.email = "kamiyabali@gmail.com",
+edituser.email = "kamiyabali@gmail.com"
 
-// console.log(userone.email);
-// console.log(usertwo.email);
+console.log(newuser.email);
+// this is kamiyabali@gmail.com
+
+console.log(edituser.email); 
+// this is kamiyabali@gmail.com
+
 
 
  

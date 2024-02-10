@@ -25,8 +25,9 @@ age = "50"
 
 
 // object
-console.log( typeof symbol);
-console.log(age);
-console.log(name);
-console.log(typeof symbol); // undefined
-console.log(typeof Boolean); // object
+// console.log( typeof symbol);
+// console.log(age);
+// console.log(name);
+// console.log(typeof symbol); // undefined
+// console.log(typeof Boolean); // object
+console.table([ symbol, age, name, symbol, isLoggedIn])
